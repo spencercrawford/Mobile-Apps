@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Back", should appear as action button if possible -->
+    <item
+            android:id="@+id/action_back"
+            android:icon="@drawable/ic_action_back"
+            android:title="Back"
+            app:showAsAction="always"/>
+
+    <!-- "Log Out", should appear as action button if possible -->
+    <item
+            android:id="@+id/action_logout"
+            android:icon="@drawable/ic_action_logout"
+            android:title="Log Out"
+            app:showAsAction="never"/>
+
+
+    <!-- Exit, should appear as action button if possible -->
+    <item
+            android:id="@+id/action_exit"
+            android:icon="@drawable/ic_action_exit"
+            android:title="@string/exit"
+            app:showAsAction="never"/>
+
+</menu>
