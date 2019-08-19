@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="schools_array">Schools Array
+    <item>Academy High School</item>
+    <item>Academy of Charter Schools</item>
+    <item>Adams City High School</item>
+    <item>Adams Youth Service Center</item>
+    <item>Belleview Christian School</item>
+    <item>Bennett High School</item>
+    <item>Brighton Heritage Academy</item>
+    <item>Brighton High School</item>
+    <item>Cedar Wood Christian Academy</item>
+    <item>Colorado Virtual Academy (cova)</item>
+    <item>Community Christian</item>
+    <item>Cornerstone Christian Academy</item>
+    <item>Eagle Ridge Academy</item>
+    <item>Early College Of Arvada</item>
+    <item>Elmwood Baptist Academy</item>
+    <item>Global Leadership Academy</item>
+    <item>Goal Academy</item>
+    <item>Hidden Lake High School</item>
+    <item>Horizon High School</item>
+    <item>Lester R Arnold High School</item>
+    <item>Life Christian Academy</item>
+    <item>Mapleton Early College High School</item>
+    <item>Mapleton Expeditionary School Of The Arts</item>
+    <item>Mountain Range High School</item>
+    <item>North Valley School For Young Adults</item>
+    <item>Northglenn High School</item>
+    <item>Options School</item>
+    <item>Pathways Future Center</item>
+    <item>Prairie Creeks Charter School</item>
+    <item>Prairie View High School</item>
+    <item>Riverdale Ridge High School</item>
+    <item>Rocky Mountain Lutheran High School</item>
+    <item>Strasburg High School</item>
+    <item>The New America School</item>
+    <item>The Pinnacle Charter School High School</item>
+    <item>Thornton High School</item>
+    <item>Vantage Point</item>
+    <item>Westgate Charter</item>
+    <item>Westminster High School</item>
+    <item>York International</item>
+    <item>Alamosa High School</item>
+    <item>Alamosa Ombudsman School Of Excellence</item>
+    <item>Sangre De Cristo Undivided High School</item>
+    <item>Arapahoe High School</item>
+    <item>Aurora Central High School</item>
+    <item>Aurora West College Preparatory Academy</item>
+    <item>Byers High School</item>
+    <item>Calvary Apostolic Academy</item>
+    <item>Cherokee Trail High School</item>
+    <item>Cherry Creek High School</item>
+    <item>Colorado Provost Academy</item>
+    <item>Colorados Finest Alternative High School</item>
+    <item>Deer Trail High School</item>
+    <item>Denver Jewish Day School</item>
+    <item>Eaglecrest High School</item>
+    <item>Englewood High School</item>
+    <item>Englewood Leadership Academy</item>
+    <item>Englewood Middle School</item>
+    <item>Gateway High School</item>
+    <item>Grandview High School</item>
+    <item>Great Plains Academy</item>
+    <item>Heritage High School</item>
+    <item>Hinkley High School</item>
+    <item>Humanex Academy</item>
+    <item>Kent Denver School</item>
+    <item>Littleton High School</item>
+    <item>Lotus School For Excellence</item>
+    <item>Options School</item>
+    <item>Our Lady Help Of Christians Academy</item>
+    <item>Overland High School</item>
+    <item>Rangeview High School</item>
+    <item>Regis Jesuit High School</item>
+    <item>Ridge View Academy Charter School</item>
+    <item>Rock Solid High School</item>
+    <item>Sheridan High School</item>
+    <item>Smoky Hill High School</item>
+    <item>St Marys Academy</item>
+    <item>The Joshua School</item>
+    <item>Vista Peak 9 to 12 Preparatory</item>
+    <item>William Smith High School</item>
+    <item>Archuleta County High School</item>
+    <item>Pagosa Springs High School</item>
+    <item>Campo Undivided High School</item>
+    <item>Pritchett High School</item>
+    <item>Springfield High School</item>
+    <item>Vilas Undivided High School</item>
+    <item>Walsh High School</item>
+    <item>Las Animas High School</item>
+    <item>McClave High School</item>
+    <item>Adult Education/Lincoln Center</item>
+    <item>Alexander Dawson School</item>
+    <item>Apex Home School Enrichment Program</item>
+    <item>Arapahoe Ridge High School</item>
+    <item>Boulder Explore</item>
+    <item>Boulder High School</item>
+    <item>Boulder Prep Charter High School</item>
+    <item>Boulder Universal</item>
+    <item>Catalyst High School</item>
+    <item>Centaurus High School</item>
+    <item>Desiderata School</item>
+    <item>Fairview High School</item>
+    <item>Faith Baptist School</item>
+    <item>Halcyon School (special Education)</item>
+    <item>Hillside School</item>
+    <item>Justice High Charter School</item>
+    <item>Longmont Christian School</item>
+    <item>Longmont High School</item>
+    <item>Lyons High School</item>
+    <item>Messiahville Baptist Academy</item>
+    <item>Monarch High School</item>
+    <item>Mountain Shadows Montessori School</item>
+    <item>Nederland High School</item>
+    <item>New Vista High School</item>
+    <item>Niwot High School</item>
+    <item>Olde Columbine High School</item>
+    <item>Peak To Peak Charter School</item>
+    <item>September School</item>
+    <item>Shining Mountain Waldorf School</item>
+    <item>Silver Creek High School</item>
+    <item>Skyline High School</item>
+    <item>St Vrain Global Online Academy</item>
+    <item>Tara Performing Arts High School</item>
+    <item>Twin Peaks Charter Academy</item>
+    <item>Watershed School</item>
+    <item>Broomfield High School</item>
+    <item>Holy Family High School</item>
+    <item>Legacy High School</item>
+    <item>Prospect Ridge Academy</item>
+    <item>Buena Vista High School</item>
+    <item>Buena Vista Online Academy</item>
+    <item>Chaffee County High School</item>
+    <item>Darren Patterson Christian Academy</item>
+    <item>Horizons Exploratory Academy</item>
+    <item>Salida High School</item>
+    <item>The Link School</item>
+    <item>Cheyenne Wells High School</item>
+    <item>Kit Carson High School</item>
+    <item>Clear Creek High School</item>
+    <item>Antonito High School</item>
+    <item>Centauri High School</item>
+    <item>La Jara Second Chance School</item>
+    <item>Sanford High School</item>
+    <item>Centennial High School</item>
+    <item>Sierra Grande High School</item>
+    <item>Crowley County High School</item>
+    <item>Custer County High School</item>
+    <item>Cedaredge High School</item>
+    <item>Delta County Opportunity School</item>
+    <item>Delta County Virtual Academy</item>
+    <item>Delta High School</item>
+    <item>Delta Vision School</item>
+    <item>Hotchkiss High School</item>
+    <item>North Fork Vision School</item>
+    <item>Paonia High School</item>
+    <item>Surface Creek Vision School</item>
+    <item>Abraham Lincoln High School</item>
+    <item>Academy Of Urban Learning</item>
+    <item>Accelerated Schools</item>
+    <item>Ace Community Challenge School</item>
+    <item>Arrupe Jesuit High School</item>
+    <item>Bansbach Academy At Denver Childrens Home</item>
+    <item>Beth Jacob High School</item>
+    <item>Bishop Machebeuf Catholic High School</item>
+    <item>Bruce Randolph School</item>
+    <item>Cec Middle College Of Denver</item>
+    <item>Change Christian Academy</item>
+    <item>Collegiate Preparatory Academy</item>
+    <item>Colorado High School</item>
+    <item>Contemporary Learning Academy High School</item>
+    <item>Denver Center for International Studies</item>
+    <item>Denver Academy</item>
+    <item>Denver Center for 21st Learning At Wyman</item>
+    <item>Denver Christian Schools</item>
+    <item>Denver Online High School</item>
+    <item>Denver School of the Arts</item>
+    <item>Denver Waldorf School</item>
+    <item>Cole High School</item>
+    <item>College View High School</item>
+    <item>Green Valley Ranch High School</item>
+    <item>Stapleton High School</item>
+    <item>East High School</item>
+    <item>Emily Griffith Technical College</item>
+    <item>Escuela Tlatelolco School</item>
+    <item>Florence Crittenton High School</item>
+    <item>George Washington High School</item>
+    <item>Gilliam School</item>
+    <item>High Tech Early College</item>
+    <item>John F. Kennedy High School</item>
+    <item>Justice High School Denver</item>
+    <item>Kipp Denver Collegiate High School</item>
+    <item>Kunsmiller Creative Arts Academy</item>
+    <item>Life Skills Center Of Denver</item>
+    <item>Love Christian Fellowship Ed</item>
+    <item>Manual High School</item>
+    <item>Martin Luther King Junior Early College</item>
+    <item>Mile High Academy</item>
+    <item>Montbello High School</item>
+    <item>Mullen High School</item>
+    <item>Noel Community Arts School</item>
+    <item>North High School</item>
+    <item>Rocky Mountain School Of Expeditionary Learning</item>
+    <item>Sims Fayola International Academy Denver</item>
+    <item>Soar Academy</item>
+    <item>South High School</item>
+    <item>Southwest Early College</item>
+    <item>Strive Prep-Smart Academy</item>
+    <item>Summit Academy</item>
+    <item>Tennyson Center For Children At Cch</item>
+    <item>Thomas Jefferson High School</item>
+    <item>Venture Prep High School</item>
+    <item>Vista Academy</item>
+    <item>West Career Academy</item>
+    <item>West Generations Academy</item>
+    <item>West High School</item>
+    <item>West Leadership Academy</item>
+    <item>Yeshiva Toras Chaim</item>
+    <item>Dove Creek High School</item>
+    <item>Castle View High School</item>
+    <item>Chaparral High School</item>
+    <item>Daniel C Oakes High School</item>
+    <item>Douglas County High School</item>
+    <item>Eagle Academy</item>
+    <item>Highlands Ranch High School</item>
+    <item>Hope On-line</item>
+    <item>Japanese School Of Denver</item>
+    <item>Legend High School</item>
+    <item>Lutheran High School</item>
+    <item>Mountain Vista High School</item>
+    <item>Ponderosa High School</item>
+    <item>Rock Canyon High School</item>
+    <item>Skyview Academy</item>
+    <item>Stem High School</item>
+    <item>Thunderridge High School</item>
+    <item>Valor Christian High School</item>
+    <item>Battle Mountain High School</item>
+    <item>Eagle Valley High School</item>
+    <item>New America Charter School</item>
+    <item>Red Canyon High School</item>
+    <item>Vail Christian School</item>
+    <item>Vail Mountain School</item>
+    <item>Vail Ski And Snowboard Academy (USAA)</item>
+    <item>World Academy</item>
+    <item>Elbert High School</item>
+    <item>Elizabeth High School</item>
+    <item>Frontier High School</item>
+    <item>Kiowa High School</item>
+    <item>Simla High School</item>
+    <item>Achievek12</item>
+    <item>Air Academy High School</item>
+    <item>Atlas Preparatory High School</item>
+    <item>Aspen Valley High School</item>
+    <item>Calhan High School</item>
+    <item>Cheyenne Mountain High School</item>
+    <item>Civa Charter Academy</item>
+    <item>Colorado School For The Deaf And Blind</item>
+    <item>Colorado Springs Christian</item>
+    <item>Colorado Springs Early Colleges</item>
+    <item>Community Prep Charter School</item>
+    <item>Coronado High School</item>
+    <item>Discovery Canyon Campus School</item>
+    <item>Discovery High School</item>
+    <item>Doherty High School</item>
+    <item>Edison Academy</item>
+    <item>Edison High School</item>
+    <item>Ellicott Senior High School</item>
+    <item>Falcon High School</item>
+    <item>Falcon Virtual Academy</item>
+    <item>Fountain Valley School Of Colorado</item>
+    <item>Fountain Fort Carson High School</item>
+    <item>Hanover High School</item>
+    <item>Harrison High School</item>
+    <item>High School Preparatory Academy</item>
+    <item>James Irwin Charter High School</item>
+    <item>Lewis Palmer High School</item>
+    <item>Liberty High School</item>
+    <item>Life Skills Center Of Colorado Springs</item>
+    <item>Lorraine Secondary School</item>
+    <item>Manitou Springs High School</item>
+    <item>Mesa Ridge High</item>
+    <item>Miami Yoder Senior High School</item>
+    <item>Mitchell High School</item>
+    <item>New Horizons Day School Public Colorado Springs</item>
+    <item>Nikola Tesla Education Opportunity Center</item>
+    <item>Palmer High School</item>
+    <item>Palmer Ridge High School</item>
+    <item>Patriot Learning Center</item>
+    <item>Peyton Senior High School</item>
+    <item>Pikes Peak Academy</item>
+    <item>Pikes Peak Christian School</item>
+    <item>Pikes Peak Prep</item>
+    <item>Pine Creek High School</item>
+    <item>Rampart High School</item>
+    <item>Rocky Mountain Montessori Academy</item>
+    <item>Sand Creek High School</item>
+    <item>Sierra High School</item>
+    <item>Spring Creek Youth Services Center</item>
+    <item>St Marys High School</item>
+    <item>Tca College Pathways</item>
+    <item>The Bijou School</item>
+    <item>The Classical Academy High School</item>
+    <item>The Colorado Springs School</item>
+    <item>The Vanguard School</item>
+    <item>Thomas Maclaren State Charter School</item>
+    <item>Vista Ridge High School</item>
+    <item>Wasson High School</item>
+    <item>Widefield High School</item>
+    <item>Calvary Christian School</item>
+    <item>Canon City High School</item>
+    <item>Canon Online Academy</item>
+    <item>Cotopaxi High School</item>
+    <item>Florence Christian School</item>
+    <item>Florence High School</item>
+    <item>Focus Academy</item>
+    <item>Garden Park High School</item>
+    <item>Bridges</item>
+    <item>Coal Ridge High School</item>
+    <item>Colorado Rocky Mountain School</item>
+    <item>Glenwood Springs High School</item>
+    <item>Grand Valley High School</item>
+    <item>Project Rebound</item>
+    <item>Rifle High School</item>
+    <item>Roaring Fork High School</item>
+    <item>The Garden School</item>
+    <item>Yampah Mountain School</item>
+    <item>Yampah Teen Parent Program</item>
+    <item>Gilpin County Undivided High School</item>
+    <item>Middle Park High School</item>
+    <item>Mountain Valley Christian Academy</item>
+    <item>West Grand High School</item>
+    <item>Winter Park Christian School</item>
+    <item>Crested Butte Community School</item>
+    <item>Gunnison High School</item>
+    <item>Marble Charter School</item>
+    <item>Lake City Community School</item>
+    <item>John Mall High School</item>
+    <item>La Veta High School</item>
+    <item>North Park High School</item>
+    <item>Alameda International High School</item>
+    <item>Arvada High School</item>
+    <item>Arvada West High School</item>
+    <item>Bear Creek High School</item>
+    <item>Beth Eden Baptist School</item>
+    <item>Brady Exploration School</item>
+    <item>Chatfield High School</item>
+    <item>Collegiate Academy Of Colorado</item>
+    <item>Colorado Academy</item>
+    <item>Columbine High School</item>
+    <item>Compass Montessori-Golden Charter School</item>
+    <item>Conifer Senior High School</item>
+    <item>Connections Learning Center On The Earle Johnson C</item>
+    <item>D evelyn High School</item>
+    <item>Dakota Ridge Senior High School</item>
+    <item>Denver Street School</item>
+    <item>Devereux Cleo Wallace Center</item>
+    <item>Evergreen High School</item>
+    <item>Excel Academy Charter School</item>
+    <item>Faith Christian Academy</item>
+    <item>Front Range Christian School</item>
+    <item>Golden High School</item>
+    <item>Green Mountain High School</item>
+    <item>Havern School</item>
+    <item>Hyland Christian School</item>
+    <item>Jeffcos 21st Century Virtual Academy</item>
+    <item>Jefferson Charter Academy Senior High School</item>
+    <item>Jefferson County Open Secondary</item>
+    <item>Jefferson High School</item>
+    <item>Lakewood High School</item>
+    <item>Longview High School</item>
+    <item>Manning Options School</item>
+    <item>Mile High Baptist School</item>
+    <item>Miller Special Education</item>
+    <item>Mountview Youth Service Center</item>
+    <item>New America School</item>
+    <item>Pomona High School</item>
+    <item>Ralston Valley Senior High School</item>
+    <item>Rocky Mountain Deaf School</item>
+    <item>Sobesky Academy</item>
+    <item>tandley Lake High School</item>
+    <item>Summit Ridge Middle School</item>
+    <item>Truth Christian Academy</item>
+    <item>Two Roads Charter School</item>
+    <item>Warren Occupation Technical Center</item>
+    <item>Warren Tech North</item>
+    <item>Wheat Ridge High School</item>
+    <item>Eads High School</item>
+    <item>Plainview High School</item>
+    <item>Bethune High School</item>
+    <item>Burlington High School</item>
+    <item>Flagler Senior High School</item>
+    <item>High Plains Undivided High School</item>
+    <item>Stratton Senior High School</item>
+    <item>Animas High School</item>
+    <item>Bayfield High School</item>
+    <item>Colorado Timberline Academy</item>
+    <item>Durango High School</item>
+    <item>Grace Preparatory Academy Of Durango</item>
+    <item>Ignacio High School</item>
+    <item>Robert Denier Youth Services Center</item>
+    <item>Southwest Colorado E-school</item>
+    <item>High Mountain Institute</item>
+    <item>Lake County High School</item>
+    <item>Berthoud High School</item>
+    <item>Centennial High School</item>
+    <item>Colorado Early College Fort Collins</item>
+    <item>Cornerstone Christian School</item>
+    <item>Discovery Montessori</item>
+    <item>Eagle Rock School</item>
+    <item>Estes Park High School</item>
+    <item>Estes Park Options School</item>
+    <item>Fort Collins High School</item>
+    <item>Fossil Ridge High School</item>
+    <item>Front Range Baptist Academy</item>
+    <item>Harold Ferguson High School</item>
+    <item>Heritage Christian Academy</item>
+    <item>Leap School</item>
+    <item>Liberty Common Charter School</item>
+    <item>Loveland Classical School</item>
+    <item>Loveland High School</item>
+    <item>Mountain View High School</item>
+    <item>Polaris Expeditionary Learning School</item>
+    <item>Poudre Community Academy</item>
+    <item>Poudre High School</item>
+    <item>Psd Global Academy</item>
+    <item>Psd Options School</item>
+    <item>Reflections For Youth Academy</item>
+    <item>Resurrection Christian School</item>
+    <item>Ridgeview Classical Charter Schools</item>
+    <item>Rocky Mountain High School</item>
+    <item>Thompson Online</item>
+    <item>Thompson Valley High School</item>
+    <item>Aguilar Junior Senior High School</item>
+    <item>Branson School Online</item>
+    <item>Branson Undivided High School</item>
+    <item>Grace Christian Center</item>
+    <item>Hoehne High School</item>
+    <item>Holy Trinity Academy</item>
+    <item>Kim Undivided High School</item>
+    <item>Primero Junior Senior High School</item>
+    <item>Trinidad High School</item>
+    <item>Genoa-Hugo High School</item>
+    <item>Karval Junior Senior High School</item>
+    <item>Limon High School</item>
+    <item>Caliche High School</item>
+    <item>Fleming High School</item>
+    <item>Merino High School</item>
+    <item>Peetz High School</item>
+    <item>Smith High School</item>
+    <item>Sterling High School</item>
+    <item>Caprock Academy</item>
+    <item>Central High School</item>
+    <item>Christian Community School</item>
+    <item>De Beque Undivided High School</item>
+    <item>Fruita Monument High School</item>
+    <item>Gateway School</item>
+    <item>Grand Junction High School</item>
+    <item>Grand Mesa High School</item>
+    <item>Grand Valley Mennonite School</item>
+    <item>Grande River Virtual Academy</item>
+    <item>Landmark Baptist School</item>
+    <item>Life Academy</item>
+    <item>Mesa Valley Vision Home And Community Program</item>
+    <item>Palisade High School</item>
+    <item>Pear Park Baptist School</item>
+    <item>Plateau Valley High School</item>
+    <item>R5 High School</item>
+    <item>Creede High School</item>
+    <item>Moffat County High School</item>
+    <item>Dolores High School</item>
+    <item>Lighthouse Christian Academy</item>
+    <item>Mancos High School</item>
+    <item>Montezuma-Cortez High School</item>
+    <item>Southwest Open Charter School</item>
+    <item>Montrose High School</item>
+    <item>Nucla High School</item>
+    <item>Olathe High School</item>
+    <item>Passage Charter School</item>
+    <item>Peak Virtual Academy</item>
+    <item>Vista Charter School</item>
+    <item>Brush High School</item>
+    <item>Fort Morgan High School</item>
+    <item>Lincoln High School</item>
+    <item>Weldon Valley High School</item>
+    <item>Wiggins High School</item>
+    <item>Cbr Youth Connect</item>
+    <item>Cheraw High School</item>
+    <item>Fowler High School</item>
+    <item>La Junta High School</item>
+    <item>Manzanola High School</item>
+    <item>Rocky Ford High School</item>
+    <item>Swink High School</item>
+    <item>Ouray High School</item>
+    <item>Ridgway High School</item>
+    <item>Platte Canyon High School</item>
+    <item>South Park High School</item>
+    <item>Haxtun High School</item>
+    <item>Holyoke Senior High School</item>
+    <item>Aspen High School</item>
+    <item>Basalt High School</item>
+    <item>Granada Undivided High School</item>
+    <item>Holly High School</item>
+    <item>Lamar High School</item>
+    <item>Wiley High School</item>
+    <item>Centennial High School</item>
+    <item>Central High School</item>
+    <item>Chavez/Huerta K12 Preparatory Academy</item>
+    <item>Dolores Huerta Preparatory High School</item>
+    <item>Eest High School</item>
+    <item>Futures Academy Public</item>
+    <item>Parkhill Christian Academy</item>
+    <item>Pueblo County High School</item>
+    <item>Pueblo West High School</item>
+    <item>Pueblo Youth Service Center</item>
+    <item>Rye High School</item>
+    <item>South High School</item>
+    <item>Southern Colorado Early College</item>
+    <item>St Therese Catholic School</item>
+    <item>Youth and Family Academy Charter</item>
+    <item>Meeker High School</item>
+    <item>Rangely High School</item>
+    <item>Byron Syring Delta Center</item>
+    <item>Del Norte High School</item>
+    <item>Monte Vista Senior High School</item>
+    <item>Monte Vista Shared School</item>
+    <item>Sargent Senior High School</item>
+    <item>Christian Heritage School</item>
+    <item>Hayden High School</item>
+    <item>Lowell Whiteman School</item>
+    <item>Soroco High School</item>
+    <item>Steamboat Springs High School</item>
+    <item>Yampa Valley School</item>
+    <item>Center High School</item>
+    <item>Center Virtual Academy</item>
+    <item>Crestone Charter School</item>
+    <item>Moffat Senior High School</item>
+    <item>Mountain Valley Senior High School</item>
+    <item>The Academic Recovery Center Of San Luis Valley</item>
+    <item>Silverton High School</item>
+    <item>Norwood High School</item>
+    <item>Telluride High School</item>
+    <item>Telluride Mountain School</item>
+    <item>Julesburg High School</item>
+    <item>Revere High School</item>
+    <item>Snowy Peaks High School</item>
+    <item>Summit High School</item>
+    <item>Cripple Creek Victor High School</item>
+    <item>Woodland Park High School</item>
+    <item>Akron High School</item>
+    <item>Arickaree Undivided High School</item>
+    <item>Lone Star Undivided High School</item>
+    <item>Otis High School</item>
+    <item>Woodlin Undivided High School</item>
+    <item>Briggsdale Undivided High School</item>
+    <item>Cameron School</item>
+    <item>Centennial Boces High School</item>
+    <item>Dayspring Christian Academy</item>
+    <item>Eaton High School</item>
+    <item>Erie High School</item>
+    <item>Fort Lupton High School</item>
+    <item>Frederick Senior High School</item>
+    <item>Frontier Charter Academy</item>
+    <item>Greeley Central High School</item>
+    <item>Greeley West High School</item>
+    <item>Highland High School</item>
+    <item>Innovative Connections High School</item>
+    <item>Jefferson High School</item>
+    <item>Mead High School</item>
+    <item>Northridge High School</item>
+    <item>Pawnee High School</item>
+    <item>Platte Valley High School</item>
+    <item>Prairie High School</item>
+    <item>Roosevelt High School</item>
+    <item>Union Colony Preparatory School</item>
+    <item>University Schools</item>
+    <item>Valley High School</item>
+    <item>Vista Ridge Academy</item>
+    <item>Weld Central Senior High School</item>
+    <item>West Ridge Academy</item>
+    <item>Windsor High School</item>
+    <item>Idalia High School</item>
+    <item>Liberty High School</item>
+    <item>Wray High School</item>
+    <item>Yuma High School</item>
+    <item>United States Air Force Academy</item>
+    <item>Aims Community College</item>
+    <item>Arapahoe Community College</item>
+    <item>Colorado Mountain College</item>
+    <item>Colorado Northwestern Community College</item>
+    <item>Community College of Aurora</item>
+    <item>Community College of Denver</item>
+    <item>Front Range Community College</item>
+    <item>Lamar Community College</item>
+    <item>Morgan Community College</item>
+    <item>Northeastern Junior College</item>
+    <item>Otero Junior College</item>
+    <item>Pikes Peak Community College</item>
+    <item>Pueblo Community College</item>
+    <item>Red Rocks Community College</item>
+    <item>Trinidad State Junior College</item>
+    <item>Western Colorado Community College</item>
+    <item>Adams State University</item>
+    <item>Colorado Mesa University</item>
+    <item>Colorado School of Mines</item>
+    <item>Fort Lewis College</item>
+    <item>Metropolitan State University of Denver</item>
+    <item>University of Northern Colorado</item>
+    <item>Western Colorado University</item>
+    <item>Colorado State University</item>
+    <item>Colorado State University Pueblo</item>
+    <item>Colorado State University Global Campus</item>
+    <item>University of Colorado Boulder</item>
+    <item>University of Colorado Colorado Springs</item>
+    <item>University of Colorado Denver</item>
+    <item>University of Colorado South Denver</item>
+    <item>Colorado Christian University</item>
+    <item>Colorado College</item>
+    <item>Columbia College of Missouri</item>
+    <item>Johnson and Wales University</item>
+    <item>Nazarene Bible College</item>
+    <item>Naropa University</item>
+    <item>Regis University</item>
+    <item>University of Denver</item>
+    <item>CollegeAmerica</item>
+    <item>Colorado Technical University</item>
+    <item>DeVry University</item>
+    <item> National American University</item>
+    <item>Rocky Mountain College of Art and Design</item>
+    <item>University of Phoenix</item>
+    <item>Lincoln College of Technology in Denver</item>
+</string-array>
+</resources>

@@ -8,16 +8,6 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true"
-            android:id="@+id/message_time"
-            android:layout_alignParentLeft="true"/>
-
-    <TextView
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/message_time"
             android:layout_alignParentStart="true"
             android:id="@+id/message_user"
             android:textStyle="normal|bold"
@@ -34,6 +24,6 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="18sp"
             android:layout_alignParentLeft="true"
-            android:textColor="#00BCD4"/>
+            android:textColor="#009688"/>
 
 </RelativeLayout>

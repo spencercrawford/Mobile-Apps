@@ -2,10 +2,10 @@ package com.example.finalproject
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.design.widget.FloatingActionButton
-import android.support.v7.app.AlertDialog
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.Toolbar
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import android.text.format.DateFormat
 import android.util.Log
 import android.view.Menu
@@ -39,11 +39,9 @@ class ChatActivity: AppCompatActivity() {
         }
         else {
             user = firebaseAuth.currentUser!!
-            Toast.makeText(this,
-                ("Welcome ${user.displayName}"), Toast.LENGTH_SHORT).show()
         }
 
-        val fab:FloatingActionButton = findViewById(R.id.fab)
+        val fab: FloatingActionButton = findViewById(R.id.fab)
 
         fab.setOnClickListener{
 
@@ -101,12 +99,8 @@ class ChatActivity: AppCompatActivity() {
         adapter = object: FirebaseListAdapter<ChatMessage>(this, ChatMessage::class.java,
             R.layout.activity_message, dbReference) {
             override fun populateView(v: View, model: ChatMessage, position: Int) {
-                val messageTime  = v.findViewById(R.id.message_time) as TextView
                 val messageUser = v.findViewById(R.id.message_user) as TextView
                 val messageText = v.findViewById(R.id.message_text) as TextView
-
-                messageTime.text = DateFormat.format("MM-dd-yyyy (HH:mm)",
-                    model.getMessageTime())
                 messageUser.text = model.getMessageUser()
                 messageText.text = model.getMessageText()
             }
