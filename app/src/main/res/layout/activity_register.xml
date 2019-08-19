@@ -1,129 +1,348 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-
+<ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:fillViewport="true">
 
-    <android.support.design.widget.TextInputLayout
-
-            android:layout_width="395dp"
+    <TableLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/registerEmailLayout"
-            android:hint="@string/email"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="200dp"
-            app:layout_constraintTop_toTopOf="parent">
+            android:stretchColumns="1">
 
-        <android.support.design.widget.TextInputEditText
-
-                android:layout_width="match_parent"
+        <androidx.appcompat.widget.Toolbar
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:hint="@string/email"
-                android:inputType="textEmailAddress"
-                android:id="@+id/registerEmail"/>
+                android:background="?attr/colorPrimary"
+                android:theme="?attr/actionBarTheme"
+                android:minHeight="?attr/actionBarSize"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/registerToolbar"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"/>
 
-    </android.support.design.widget.TextInputLayout>
-
-    <android.support.design.widget.TextInputLayout
-
-            android:layout_width="395dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/registerEmailLayout"
-            android:layout_marginTop="32dp"
-            android:id="@+id/registerPasswordLayout"
-            android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp">
-
-        <android.support.design.widget.TextInputEditText
-
-                android:layout_width="match_parent"
+        <Button
+                android:text="@string/already_a_member"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="@string/password"
-                android:id="@+id/registerPassword"
-                android:inputType="textPassword"/>
+                android:id="@+id/alreadyMemberButton"
+                android:textSize="14sp"
+                android:textColor="#009688"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"/>
 
-    </android.support.design.widget.TextInputLayout>
-
-    <Button
-
-            android:text="@string/register"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:id="@+id/registerButton"
-            android:layout_marginTop="32dp"
-            app:layout_constraintTop_toBottomOf="@+id/registerPasswordLayout"/>
-
-    <Button
-
-            android:text="@string/already_a_member"
-            android:layout_width="wrap_content"
-            android:layout_height="35dp"
-            android:id="@+id/alreadyMemberButton"
-            app:layout_constraintEnd_toEndOf="@+id/registerButton"
-            app:layout_constraintStart_toStartOf="@+id/registerButton"
-            android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/registerButton"
-            android:textSize="14sp"/>
-
-    <android.support.v7.widget.Toolbar
-
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:background="?attr/colorPrimary"
-            android:theme="?attr/actionBarTheme"
-            android:minHeight="?attr/actionBarSize"
-            app:layout_constraintStart_toStartOf="parent"
-            android:id="@+id/registerToolbar"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"/>
-
-    <android.support.design.widget.TextInputLayout
-
-            android:layout_width="395dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginBottom="32dp"
-            app:layout_constraintBottom_toTopOf="@+id/registerEmailLayout"
-            android:layout_marginTop="55dp"
-            app:layout_constraintTop_toBottomOf="@+id/registerToolbar"
-            android:id="@+id/registerUserNameLayout">
-
-        <android.support.design.widget.TextInputEditText
-
-                android:layout_width="match_parent"
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="@string/user_name"
-                android:id="@+id/registerUserName"
+                android:hint="@string/first_name"
+                android:id="@+id/registerFirstNameEditText"
                 android:inputType="textPersonName"/>
 
-    </android.support.design.widget.TextInputLayout>
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/last_name"
+                android:id="@+id/registerLastNameEditText"
+                android:inputType="textPersonName"/>
 
-    <Button
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gender_id"
+                android:id="@+id/registerGenderIdTextView"
+                android:textSize="18sp"
+                android:textColor="#009688"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="16dp"/>
 
-            android:text="@string/generate_random_user_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:id="@+id/generateRandomUserNameButton"
-            android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/alreadyMemberButton"
-            android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+        <RadioGroup android:id="@+id/registerGenderIdRadioGroup">
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/male"
+                    android:id="@+id/registerMaleRadioButton"
+                    android:textAlignment="viewStart"/>
 
-</android.support.constraint.ConstraintLayout>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/female"
+                    android:id="@+id/registerFemaleRadioButton"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gender_neutral"
+                    android:id="@+id/registerGenderNeutralRadioButton"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prefer_not_to_say"
+                    android:id="@+id/registerPreferNotGenderRadioButton"/>
+        </RadioGroup>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:autofillHints="@string/age"
+                android:id="@+id/registerAgeEditText"
+                android:hint="@string/age"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sexual_orientation"
+                android:id="@+id/registerSexualOrientationTextView"
+                android:textSize="18sp"
+                android:textColor="#009688"
+                android:textAlignment="viewStart"/>
+
+        <RadioGroup android:id="@+id/registerSexualOrientationRadioGroup">
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/straight"
+                    android:id="@+id/registerStraightRadioButton"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gay"
+                    android:id="@+id/registerGayRadioButton"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bisexual"
+                    android:id="@+id/registerBisexualRadioButton"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/asexual"
+                    android:id="@+id/registerAsexualRadioButton"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prefer_not_to_say"
+                    android:id="@+id/registerPreferNotOrientationRadioButton"/>
+        </RadioGroup>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ethnicity"
+                android:id="@+id/registerEthnicityTextView"
+                android:textSize="18sp"
+                android:textColor="#009688"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="16dp"/>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asian"
+                android:id="@+id/registerAsianCheckBox"/>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/black_african"
+                android:id="@+id/registerBlackAfricanCheckBox"/>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/white_caucasian"
+                android:id="@+id/registerWhiteCaucasianCheckBox"/>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hispanic_latinx"
+                android:id="@+id/registerHispanicLatinXCheckBox"/>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/native_american"
+                android:id="@+id/registerNativeAmericanCheckBox"/>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pacific_islander"
+                android:id="@+id/registerPacificIslanderCheckBox"/>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prefer_not_to_say"
+                android:id="@+id/registerPreferNotEthnicityCheckBox"/>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/other"
+                android:id="@+id/registerOtherEthnicityCheckBox"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/education_level"
+                android:id="@+id/registerEducationLevelTextView"
+                android:textSize="18sp"
+                android:textColor="#009688"
+                android:layout_marginTop="16dp"/>
+
+        <RadioGroup android:id="@+id/registerEducationLevelRadioGroup">
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/elementary_school"
+                    android:id="@+id/registerElementarySchoolRadioButton"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/middle_school"
+                    android:id="@+id/registerMiddleSchoolRadioButton"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/high_school"
+                    android:id="@+id/registerHighSchoolRadioButton"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/higher_education"
+                    android:id="@+id/registerHigherEducationRadioButton"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_school"
+                    android:id="@+id/registerHomeSchoolRadioButton"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prefer_not_to_say"
+                    android:id="@+id/registerPreferNotEducationRadioButton"/>
+        </RadioGroup>
+
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:completionThreshold="2"
+                android:id="@+id/registerSchoolsAutoComplete"
+                android:hint="@string/school"
+                android:layout_marginTop="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:completionThreshold="2"
+                android:id="@+id/registerCitiesAutoComplete"
+                android:hint="@string/city"
+        />
+
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:completionThreshold="2"
+                android:id="@+id/registerStatesAutoComplete"
+                android:hint="@string/state"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/registerReferredByTextView"
+                android:text="@string/referred_by"
+                android:textSize="18sp"
+                android:textColor="#009688"
+                android:layout_marginTop="16dp"/>
+
+        <RadioGroup android:id="@+id/registerReferredByRadioGroup">
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/self"
+                    android:id="@+id/registerSelfRadioButton"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/friend"
+                    android:id="@+id/registerFriendRadioButton"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/parent_guardian"
+                    android:id="@+id/registerParentGuardianRadioButton"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/school"
+                    android:id="@+id/registerSchoolReferredRadioButton"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/court_system"
+                    android:id="@+id/registerCourtSystemRadioButton"/>
+        </RadioGroup>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/registerEmailUseTextView" android:text="Email = Login"
+                android:textSize="18sp" android:textColor="#F44336" android:layout_marginTop="16dp"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/registerEmailEditText"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress" android:layout_marginBottom="16dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/registerPhoneNumberUseTextView" android:textColor="#F44336"
+                android:text="Phone Number = Password" android:textSize="18sp"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/registerPhoneNumberEditText"
+                android:hint="@string/phone_number"
+                android:inputType="phone"
+                android:layout_marginBottom="16dp"/>
+
+        <Button
+                android:text="@string/register"
+                android:layout_width="113dp"
+                android:layout_height="70dp"
+                android:id="@+id/registerButton"
+                android:textColor="#009688"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"/>
+
+    </TableLayout>
+</ScrollView>

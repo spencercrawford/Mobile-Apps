@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities_array">
+        <item>Aguilar</item>
+        <item>Akron</item>
+        <item>Alamosa</item>
+        <item>Alma</item>
+        <item>Antonito</item>
+        <item>Arriba</item>
+        <item>Arvada</item>
+        <item>Aspen</item>
+        <item>Ault</item>
+        <item>Aurora</item>
+        <item>Avon</item>
+        <item> Basalt</item>
+        <item>Bayfield</item>
+        <item>Bennett</item>
+        <item>Berthoud</item>
+        <item>Bethune</item>
+        <item>Black Hawk</item>
+        <item>Blanca</item>
+        <item>Blue River</item>
+        <item>Bonanza</item>
+        <item>Boone</item>
+        <item>Boulder</item>
+        <item>Bow Mar</item>
+        <item>Branson</item>
+        <item>Breckenridge</item>
+        <item> Brighton</item>
+        <item>Brookside</item>
+        <item>Broomfield</item>
+        <item> Brush</item>
+        <item> Buena Vista</item>
+        <item>Burlington</item>
+        <item>Calhan</item>
+        <item> Campo</item>
+        <item>Cañon City</item>
+        <item>Carbondale</item>
+        <item>Castle Pines</item>
+        <item>Castle Rock</item>
+        <item>Cedaredge</item>
+        <item> Centennial</item>
+        <item>Center</item>
+        <item>Central City</item>
+        <item>Cheraw</item>
+        <item>Cherry Hills Village</item>
+        <item>Cheyenne Wells</item>
+        <item>Coal Creek</item>
+        <item>Cokedale</item>
+        <item>Collbran</item>
+        <item>Colorado Springs</item>
+        <item>Columbine Valley</item>
+        <item> Commerce City</item>
+        <item>Cortez</item>
+        <item>Craig</item>
+        <item>Crawford</item>
+        <item>Creede</item>
+        <item>Crested Butte</item>
+        <item>Crestone</item>
+        <item>Cripple Creek</item>
+        <item>Crook</item>
+        <item>Crowley</item>
+        <item> Dacono</item>
+        <item>De Beque</item>
+        <item>Deer Trail</item>
+        <item> Del Norte</item>
+        <item>Delta</item>
+        <item>Denver</item>
+        <item> Dillon</item>
+        <item>Dinosaur</item>
+        <item>Dolores</item>
+        <item> Dove Creek</item>
+        <item>Durango</item>
+        <item>Eads</item>
+        <item>Eagle</item>
+        <item>Eaton</item>
+        <item>Eckley</item>
+        <item>Edgewater</item>
+        <item>Elizabeth</item>
+        <item>Empire</item>
+        <item>Englewood</item>
+        <item>Erie</item>
+        <item>Estes Park</item>
+        <item>Evans</item>
+        <item>Fairplay</item>
+        <item>Federal Heights</item>
+        <item>Firestone</item>
+        <item>Flagler</item>
+        <item>Fleming</item>
+        <item>Florence</item>
+        <item>Fort Collins</item>
+        <item>Fort Lupton</item>
+        <item>Fort Morgan</item>
+        <item>Fountain</item>
+        <item>Fowler</item>
+        <item>Foxfield</item>
+        <item>Fraser</item>
+        <item>Frederick</item>
+        <item>Frisco</item>
+        <item>Fruita</item>
+        <item>Garden City</item>
+        <item>Genoa</item>
+        <item>Georgetown</item>
+        <item>Gilcrest</item>
+        <item>Glendale</item>
+        <item>Glenwood Springs</item>
+        <item>Golden</item>
+        <item>Granada</item>
+        <item> Granby</item>
+        <item>Grand Junction</item>
+        <item>Grand Lake</item>
+        <item>Greeley</item>
+        <item>Green Mountain Falls</item>
+        <item>Greenwood Village</item>
+        <item> Grover</item>
+        <item>Gunnison</item>
+        <item>Gypsum</item>
+        <item>Hartman</item>
+        <item>Haswell</item>
+        <item>Haxtun</item>
+        <item>Hayden</item>
+        <item>Hillrose</item>
+        <item>Holly</item>
+        <item>Holyoke</item>
+        <item>Hooper</item>
+        <item>Hot Sulphur Springs</item>
+        <item>Hotchkiss</item>
+        <item>Hudson</item>
+        <item>Hugo</item>
+        <item>Idaho Springs</item>
+        <item>Ignacio</item>
+        <item>Iliff</item>
+        <item>Jamestown</item>
+        <item>Johnstown</item>
+        <item>Julesburg</item>
+        <item>Keenesburg</item>
+        <item>Kersey</item>
+        <item>Kim</item>
+        <item>Kiowa</item>
+        <item>Kit Carson</item>
+        <item>Kremmling</item>
+        <item>La Jara</item>
+        <item>La Junta</item>
+        <item>La Veta</item>
+        <item>Lafayette</item>
+        <item>Lake City</item>
+        <item>Lakeside</item>
+        <item>Lakewood</item>
+        <item>Lamar</item>
+        <item>Larkspur</item>
+        <item>Las Animas</item>
+        <item>LaSalle</item>
+        <item>Leadville</item>
+        <item>Limon</item>
+        <item>Littleton</item>
+        <item>Lochbuie</item>
+        <item>Log Lane Village</item>
+        <item>Lone Tree</item>
+        <item>Longmont</item>
+        <item>Louisville</item>
+        <item>Loveland</item>
+        <item>Lyons</item>
+        <item>Manassa</item>
+        <item>Mancos</item>
+        <item>Manitou Springs</item>
+        <item>Manzanola</item>
+        <item>Marble</item>
+        <item>Mead</item>
+        <item>Meeker</item>
+        <item>Merino</item>
+        <item>Milliken</item>
+        <item>Minturn</item>
+        <item>Moffat</item>
+        <item>Monte Vista</item>
+        <item>Montezuma</item>
+        <item>Montrose</item>
+        <item>Monument</item>
+        <item>Morrison</item>
+        <item>Mount Crested Butte</item>
+        <item>Mountain View</item>
+        <item>Mountain Village</item>
+        <item>Naturita</item>
+        <item>Nederland</item>
+        <item>New Castle</item>
+        <item>Northglenn</item>
+        <item>Norwood</item>
+        <item>Nucla</item>
+        <item>Nunn</item>
+        <item>Oak Creek</item>
+        <item>Olathe</item>
+        <item>Olney Springs</item>
+        <item>Ophir</item>
+        <item>Orchard City</item>
+        <item>Ordway</item>
+        <item>Otis</item>
+        <item>Ouray</item>
+        <item>Ovid</item>
+        <item>Pagosa Springs</item>
+        <item>Palisade</item>
+        <item>Palmer Lake</item>
+        <item>Paoli</item>
+        <item>Paonia</item>
+        <item>Parachute</item>
+        <item>Parker</item>
+        <item>Peetz</item>
+        <item>Pierce</item>
+        <item>Pitkin</item>
+        <item>Platteville</item>
+        <item>Poncha Springs</item>
+        <item>Pritchett</item>
+        <item>Pueblo</item>
+        <item>Ramah</item>
+        <item>Rangely</item>
+        <item>Raymer</item>
+        <item>Red Cliff</item>
+        <item>Rico</item>
+        <item>Ridgway</item>
+        <item>Rifle</item>
+        <item>Rockvale</item>
+        <item>Rocky Ford</item>
+        <item>Romeo</item>
+        <item>Rye</item>
+        <item>Saguache</item>
+        <item>Salida</item>
+        <item>San Luis</item>
+        <item>Sanford</item>
+        <item>Sawpit</item>
+        <item>Sedgwick</item>
+        <item>Seibert</item>
+        <item>Severance</item>
+        <item>Sheridan</item>
+        <item>Sheridan Lake</item>
+        <item>Silt</item>
+        <item>Silver Cliff</item>
+        <item>Silver Plume</item>
+        <item>Silverthorne</item>
+        <item>Silverton</item>
+        <item>Simla</item>
+        <item>Snowmass Village</item>
+        <item>South Fork</item>
+        <item>Springfield</item>
+        <item>Starkville</item>
+        <item>Steamboat Springs</item>
+        <item>Sterling</item>
+        <item>Stratton</item>
+        <item>Sugar City</item>
+        <item>Superior</item>
+        <item>Swink</item>
+        <item>Telluride</item>
+        <item>Thornton</item>
+        <item>Timnath</item>
+        <item>Trinidad</item>
+        <item>Two Buttes</item>
+        <item>Vail</item>
+        <item>Victor</item>
+        <item>Vilas</item>
+        <item>Vona</item>
+        <item>Walden</item>
+        <item>Walsenburg</item>
+        <item>Walsh</item>
+        <item>Ward</item>
+        <item>Wellington</item>
+        <item>Westcliffe</item>
+        <item>Westminster</item>
+        <item>Wheat Ridge</item>
+        <item>Wiggins</item>
+        <item>Wiley</item>
+        <item>Williamsburg</item>
+        <item>Windsor</item>
+        <item>Winter Park</item>
+        <item>Woodland Park</item>
+        <item>Wray</item>
+        <item>Yampa</item>
+        <item>Yuma</item>
+    </string-array>
+</resources>

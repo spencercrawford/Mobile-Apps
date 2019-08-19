@@ -2,8 +2,8 @@ package com.example.finalproject
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AlertDialog
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import android.text.TextUtils
 import android.view.Menu
 import android.view.MenuItem
@@ -17,7 +17,7 @@ class NewPasswordActivity : AppCompatActivity() {
     lateinit var email: EditText
     lateinit var newPasswordButton: Button
     lateinit var firebaseAuth: FirebaseAuth
-    lateinit var toolbar: android.support.v7.widget.Toolbar
+    lateinit var toolbar: androidx.appcompat.widget.Toolbar
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

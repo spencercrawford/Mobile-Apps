@@ -1,39 +1,21 @@
 package com.example.finalproject
 
 import android.content.Intent
-import android.content.SharedPreferences
 import android.os.Bundle
-import android.support.v4.content.ContextCompat.startActivity
-import android.support.v7.app.AlertDialog
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import android.text.TextUtils
-import android.text.format.DateFormat
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import com.google.android.gms.auth.api.Auth
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount
-import com.google.android.gms.auth.api.signin.GoogleSignInClient
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions
-import com.google.android.gms.auth.api.signin.GoogleSignInResult
-import com.google.android.gms.common.ConnectionResult
-import com.google.android.gms.common.SignInButton
-import com.google.android.gms.common.api.ApiException
-import com.google.android.gms.common.api.GoogleApiClient
-import com.google.firebase.auth.AuthCredential
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
-import com.google.firebase.auth.GoogleAuthProvider
-import kotlinx.android.synthetic.main.activity_login.*
-import java.util.*
 
 class LoginActivity : AppCompatActivity() {
 
-    var TAG = "OUTPUT"
+    var TAG = "NATURAL"
 
     lateinit var loginEmail: EditText
     lateinit var loginPassword: EditText
@@ -43,7 +25,7 @@ class LoginActivity : AppCompatActivity() {
 
     var firebaseAuth: FirebaseAuth = FirebaseAuth.getInstance()
 
-    lateinit var toolbar: android.support.v7.widget.Toolbar
+    lateinit var toolbar: androidx.appcompat.widget.Toolbar
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,28 +35,28 @@ class LoginActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         loginEmail = findViewById(R.id.loginEmail)
-        loginPassword = findViewById(R.id.loginPassword)
+        loginPassword = findViewById(R.id.loginPhoneNumber)
         loginButton = findViewById(R.id.loginButton)
         registerButton = findViewById(R.id.registerButton)
-        newPasswordButton = findViewById(R.id.forgotPasswordButton)
+        newPasswordButton = findViewById(R.id.newPasswordButton)
 
         firebaseAuth = FirebaseAuth.getInstance()
 
         loginButton.setOnClickListener {
 
-            var email: String = loginEmail.text.toString()
+            var username: String = loginEmail.text.toString()
             var password: String = loginPassword.text.toString()
 
-            if (TextUtils.isEmpty(email)) {
-                Toast.makeText(applicationContext, "Please Enter Your Email.", Toast.LENGTH_SHORT).show()
+            if (TextUtils.isEmpty(username)) {
+                Toast.makeText(applicationContext, "Please Enter Your User Name", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
             if (TextUtils.isEmpty(password)) {
-                Toast.makeText(applicationContext, "Please Enter Your Password.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext, "Please Enter Your Phone Number", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
-            firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener { task ->
+            firebaseAuth.signInWithEmailAndPassword(username, password).addOnCompleteListener { task ->
                 if (task.isSuccessful) {
                     startActivity(Intent(applicationContext, MainActivity::class.java))
                     finish()
